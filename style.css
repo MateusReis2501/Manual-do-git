@@ -1,0 +1,87 @@
+h1{  
+ color: rgb(0, 0, 0);
+ background-color:white
+} 
+h1{
+text-align: center;
+font-size: 50px;
+}
+html {
+background-color: white
+}/*definindo cor do titulo*/
+
+li{
+color: black
+}
+p{
+color: black
+}
+h2{
+background-color: rgb(189, 149, 149);
+color:black
+
+} /* definindo a cor das letras */
+h2{
+text-align:center
+}
+.container h2{
+color: rgb(204, 41, 41);
+}
+.destaque {
+ background-color: rgb(189, 149,149)
+}
+.destaque{
+font-size: 120px;
+margin: 0%;
+}
+
+.paçoca {
+font-weight: 200;
+}
+header{
+background-color: white
+}
+.destaque{
+vertical-align: 30px;
+}
+.header{
+padding: 100px;
+}
+.destacar{
+    background-color: rgb(189, 149, 149)
+}
+.destacar{
+    font-style: 50px ;
+}
+.container{
+    text-align: center;
+}
+.container img{
+    margin: 5%;
+}
+.destacar{
+    font-size: 60px;
+}
+.destaq{
+    font-size: 60px;
+}
+p{
+    font-size: 30px;
+}
+li{
+    font-size: 30px;
+}
+h2{
+    font-size: 50px;
+}
+.menu{
+    display: flex;
+    margin: auto;
+    max-width: 992;
+    min-width: 320px;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    background-color: rgb(189, 149, 149);
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Manual do Git</title>
+</head>
+
+    <body>
+    
+        <header>
+            <div class="menu">
+            
+              
+             <nav>   
+                  <ul class="list-item">
+                </ul>
+            </div>
+            <h2 class="destaque"> <li><a href="https://gitforwindows.org/">Instalação</a></li>Manual do git</h2><br><br>
+        </nav>
+        <h2 class="destacar">"Mini manual, lista de comandos bãsicos e para que servem"</h2><br><br>
+        <h2 class="destaq">vamos te ensinar como funciona o git e os comandos básicos dele</h2><br><br>
+        <div class="container">
+            <img src="./../img/setarosa3.png" alt="">
+        </div>
+        </header>
+
+
+
+        <h1> O que é Git</h2>
+            <p>
+                Git é um sistema de controle de versão de código utilizado por muitas empresas, existem outros mais ultrapassados, mas os sistemas mais atuais são baseados em git. Algumas empresas são especializadas em fornecer os serviços para o controle de histórico de alterações do código, e diversas outras empresas que utilizam dessas ferramentas para manter a consistência na equipe de desenvolvimento.
+            </p>
+
+            <h2>configuração</h2><br>
+            <p>
+                Para configurar o nome e o email associados à sua conta do GitHub e vinculá-los localmente, use os comandos
+                corretos:
+            </p>
+            <ul>
+                <li>git config --global user.name "[seu nome</li>
+                <li>git config --global user.email "[seu endereço de email]"
+                </li>
+            </ul>
+            <h2>Git init e Git add .</h2>
+            <ul>
+                <li>O comando git init é usado para criar um repositório local.</li>
+                <li>O comando git add é utilizado para adicionar arquivos à área de preparação. git add . adicionará todos
+                    os arquivos modificados ou novos ao próximo commit</li>
+            </ul>
+            <h2>Git commit</h2>
+
+            <ul>
+
+                <li>O comando git commit -m "mensagem" é usado para confirmar suas alterações na área de preparação com uma
+                    mensagem de commit. Não é necessário mencionar que ele adiciona arquivos, pois isso é feito
+                    anteriormente com o comando git add.</li>
+                <li>A explicação sobre git reset HEAD~1 está correta. Ele é usado para voltar um commit, desfazendo o commit
+                    mais recente.</li>
+            </ul>
+
+            <h2>Git log e Git status</h2>
+            <p>
+                git log é usado para verificar o histórico de commits, não o histórico de ramificações.
+                git status é utilizado para verificar o status dos arquivos em relação à área de preparação e ao diretório
+                de trabalho.
+                Git branch:
+
+                O comando para listar todas as ramificações é git branch, mas para excluir uma ramificação, use git branch
+                -d [nome da ramificação].
+                git checkout é usado para alternar entre ramificações.
+
+            </p>
+            <h2>Git remote</h2>
+            <ul>
+                <li>O comando para adicionar um vínculo a um repositório remoto é git remote add origin [endereço remoto].
+                </li>
+                <li> remote -v é usado para visualizar as informações sobre os repositórios remotos conectados ao
+                    repositório local.</li>
+
+                <li>Para remover o vínculo a um repositório remoto, use git remote rm origin.
+                    Para renomear um repositório remoto, use git remote rename "nome atual" "nome novo".
+                </li>
+                <h2>Git push e Git pull</h2>
+                <ul>
+                    <li>O comando git push é usado para enviar as alterações locais para o repositório remoto, não para
+                        puxar da máquina local para a remota.</li>
+                    <li>O comando git pull é usado para puxar as alterações do repositório remoto para a máquina local.
+
+                    </li>
+                </ul>
+                <h2>Git ignore</h2>
+                <ul>
+                    <li> Especifica arquivos e diretórios que devem ser ignorados pelo Git.
+
+                        Crie um arquivo .gitignore e liste os padrões de arquivos/diretórios a serem ignorados.</li>
+                </ul>
+
+
+    </html>
